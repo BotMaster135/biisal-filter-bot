@@ -132,19 +132,14 @@ async def start(client:Client, message):
     await client.send_message(LOG_CHANNEL, script.NEW_USER_TXT.format(temp.B_LINK, message.from_user.id, message.from_user.mention))
 
     try:
-        # Check if the message has a second part (referral data)
         if len(message.command) > 1:
             refData = message.command[1]
-            # Check if the referral data matches the expected pattern
             if refData and refData.split("-", 1)[0] == "biisal":
                 Fullref = refData.split("-", 1)
                 refUserId = int(Fullref[1])
-
-                # Update referral points
                 await db.update_point(refUserId)
                 newPoint = await db.get_point(refUserId)
 
-        # Your additional code here for AUTH_CHANNEL and subscription check
         if AUTH_CHANNEL and await is_req_subscribed(client, message):
             pass  # Continue with further processing if required
 
