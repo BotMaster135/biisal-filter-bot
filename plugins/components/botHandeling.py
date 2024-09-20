@@ -55,9 +55,9 @@ async def set_stream_link(client, message):
             await db.set_stream_link(link)
             await message.reply("Successfully set stream link!")
         else:
-            await message.reply("Usage: /stream https://t.me/bisal_files or http://t.me/bisal_files")
+            await message.reply("Usage: /stream https://t.me/MovieSearchAutoGroup or https://t.me/MovieSearchAutoGroup")
     except IndexError:
-        await message.reply("Usage: /stream https://t.me/bisal_files or http://t.me/bisal_files")
+        await message.reply("Usage: /stream https://t.me/MovieSearchAutoGroup or https://t.me/MovieSearchAutoGroup")
         return
 
 
@@ -90,7 +90,7 @@ async def m_grp(client, message):
     links = []
     link = await client.ask(message.chat.id ,"send me your pm search grp link or send /skiplink to skip , default is bisal_files")
     if link.text == "/skiplink":
-        links.append("https://t.me/bisal_files")
+        links.append("https://t.me/MovieSearchAutoGroup")
     else:
         if checkIfLinkIsValid(link.text):
             links.append(link.text)
@@ -98,7 +98,7 @@ async def m_grp(client, message):
             await message.reply("Invalid link")
     link1 = await client.ask(message.chat.id ,"send me your movies grp link or send /skiplink to skip . default is bisal_files")
     if link1.text == "/skiplink":
-        links.append("https://t.me/bisal_files")
+        links.append("https://t.me/MovieSearchAutoGroup")
     else:
         if checkIfLinkIsValid(link1.text):
             links.append(link1.text)
