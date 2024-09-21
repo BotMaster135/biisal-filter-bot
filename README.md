@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/a5f6da40168d19a3bedb8.jpg">
+  <img src="https://i.postimg.cc/RVZHrJ5d/IMG-20240919-142401-968.jpg">
 </p>
 <h1 align="center">
   Biisal Filter Bot
@@ -43,7 +43,7 @@ For more information of the project, please refer to the [FEATURES PAGE](https:/
 
 🧑‍💻 [Hansaka Anuhas](https://t.me/Hansaka_Anuhas)
 
-### 🔧 [Support Group](https://t.me/Bisal_Files_Talk)
+### 🔧 [Support Group](https://t.me/MovieSearchAutoGroup)
 
 ## Disclaimer
 
@@ -53,4 +53,4 @@ This repository is provided for educational purposes only. It is not intended fo
 
 This project is licensed under the [MIT License](https://github.com/biisal/biisal-filter-bot/blob/main/LICENSE)
 
-### Jai Shree Krishna !😉
+### Hey Sona !😉
