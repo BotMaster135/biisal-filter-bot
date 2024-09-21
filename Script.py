@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b> 🎭ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {} {},
+    START_TXT = """<b> 🎭 HER DARLING {} {},
     
 <blockquote>ɪᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ..
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</blockquote>
