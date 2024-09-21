@@ -49,7 +49,7 @@ async def group_search(client, message):
     chat_id = message.chat.id
     settings = await get_settings(chat_id)
     ifJoinedFsub = await is_user_fsub(client,message)
-    if ifJoinedFsub == False:
+    if ifJoinedFsub == True:
         return
     if message.chat.id == SUPPORT_GROUP :
                 if message.text.startswith("/"):
