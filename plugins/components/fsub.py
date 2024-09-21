@@ -32,7 +32,7 @@ async def force_subscribe(client, message):
         return await m.edit(f"Successfully added force subscribe to {toFsub} in {message.chat.title}")
     except Exception as e:
         logger.exception(e)
-        return await m.edit(f"Something went wrong ! Try again later or report in Support Group @bisal_files_talk")
+        return await m.edit(f"Something went wrong ! Try again later or report in Support Group @MovieSearchAutoGroup")
 
 @Client.on_message(filters.command("del_fsub"))
 async def del_force_subscribe(client, message):
