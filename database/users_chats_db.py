@@ -282,7 +282,7 @@ class Database:
                         return myLinks.get("links")[1]
                 else:
                     if index == 0:
-                        return "https://t.me/MovieSearchAutoGroup" , False
+                        return "https://t.me/MovieSearchAutoGroup" , True
                     else :
                         return "https://t.me/MovieSearchAutoGroup"
         except Exception as e:
