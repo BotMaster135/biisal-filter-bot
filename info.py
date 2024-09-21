@@ -13,12 +13,12 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '26597768'))
-API_HASH = environ.get('API_HASH', '340f87444e648a712eae77c310648e21')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8063639700:AAEk19gaxRF0fKM9MzJeU_L2n-RqFArSRos')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
+USERNAME = environ.get('USERNAME', "https://telegram.me/botmaster135")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001860172104'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MovieSearchAutoGroup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001860172104').split()]
@@ -28,7 +28,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001860172104'))
 QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/734170f40b8169830d821.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
+START_IMG = environ.get('START_IMG', 'https://i.postimg.cc/RVZHrJ5d/IMG-20240919-142401-968.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002040575112'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
