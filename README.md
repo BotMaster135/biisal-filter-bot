@@ -2,7 +2,7 @@
   <img src="https://i.postimg.cc/RVZHrJ5d/IMG-20240919-142401-968.jpg">
 </p>
 <h1 align="center">
-  Biisal Filter Bot
+  botmaster135
 </h1>
 
 First Check our **Demo** bot -
