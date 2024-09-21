@@ -27,16 +27,16 @@ async def pm_search(client, message):
     link , ispm = await db.get_set_grp_links(index=0)
     if ispm:
         if 'hindi' in message.text.lower() or 'tamil' in message.text.lower() or 'telugu' in message.text.lower() or 'malayalam' in message.text.lower() or 'kannada' in message.text.lower() or 'english' in message.text.lower() or 'gujarati' in message.text.lower(): 
-            return await auto_filter(client, message , pm_mode=True)
-        await auto_filter(client, message , pm_mode=True)
+            return await auto_filter(client, message , pm_mode=False)
+        await auto_filter(client, message , pm_mode=False)
     else:
         await message.reply_text(
-        text=f"<b>Nᴀᴍᴀsᴛʜᴇ {message.from_user.mention} Jɪ 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nɪ ᴡᴏʀᴋ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs</b>",
+        text=f"<b>Hey Sona {message.from_user.mention} Jɪ 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nɪ ᴡᴏʀᴋ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs</b>",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 😊", url=link
+                        "sᴜᴘᴘᴏʀᴛ 😊", url='https://t.me/MovieSearchAutoGroup' link
                     )
                 ]
             ]
