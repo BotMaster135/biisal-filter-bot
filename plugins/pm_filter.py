@@ -36,7 +36,7 @@ async def pm_search(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ 😊", url='https://t.me/MovieSearchAutoGroup' link
+                        "sᴜᴘᴘᴏʀᴛ 😊", url=link
                     )
                 ]
             ]
