@@ -1274,7 +1274,7 @@ async def delSticker(sticker):
         await sticker.delete()
     except:
         pass
-async def auto_filter(client, msg, spoll=False , pm_mode = False):
+async def auto_filter(client, msg, spoll=False , pm_mode = True):
     st = ''
     try:
         st = await msg.reply_sticker(sticker=random.choice(STICKERS_IDS))
