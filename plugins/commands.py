@@ -72,7 +72,7 @@ async def start(client:Client, message):
     try:
          data = message.command[1]
          if data.startswith('pm_mode_'):
-             pm_mode = True
+             pm_mode = False
     except:
         pass
     m = message
