@@ -685,7 +685,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         clicker = int(query.data.split("#")[1])
         if clicker not in [query.from_user.id, 0]:
             return await query.answer(
-            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato", show_alert=True
+            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato এটা আপনার সিনেমার অনুরোধ নয়", show_alert=True
             )
         newPoint = await db.get_point(clicker)
         
